@@ -48,32 +48,32 @@ export default function Footer() {
             <div className="footer-nav-cont  col-2">
               <h3>General</h3>
               <p>
-                <a className="footer-nav-cont-p" to="#home">
+                <a className="footer-nav-cont-p" href="#home">
                   Home
                 </a>
               </p>
               <p>
-                <a className="footer-nav-cont-p" to="#about">
+                <a className="footer-nav-cont-p" href="#about">
                   About
                 </a>
               </p>
               <p>
-                <a className="footer-nav-cont-p" to="#trending">
+                <a className="footer-nav-cont-p" href="#trending">
                   We Provide
                 </a>
               </p>
               <p>
-                <a className="footer-nav-cont-p" to="#properties">
+                <a className="footer-nav-cont-p" href="#properties">
                   Lands
                 </a>
               </p>
               <p>
-                <a className="footer-nav-cont-p" to="#Agents">
+                <a className="footer-nav-cont-p" href="#Agents">
                   Agents
                 </a>
               </p>
               <p>
-                <a className="footer-nav-cont-p" to="#contact">
+                <a className="footer-nav-cont-p" href="#contact">
                   Contact Us
                 </a>
               </p>
