@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.nav-links {
+  text-align: center; /* Center the links */
+}
+.custom-bg{
+  background-color: white !important;
+  padding:10px !important;
+
+}
+.nav-links .nav-link {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  padding:0px 10px !important;
+  font-weight: 700;
+}
+.login__register--link{
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  padding:0px 10px !important;
+  font-weight: 700;
+}
+.custom-navlinks{
+  padding-left: 40% !important;
+}
+
+.nav-links .dropdown-item {
+  font-size: 1.25rem; /* Adjust font size as needed */
+}

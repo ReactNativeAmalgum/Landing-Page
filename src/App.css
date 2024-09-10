@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.swiper-button-prev, .swiper-button-next{
+  display: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.custom-col-left{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.hero__content--heading__subtitle {
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  color: #FA4A4A !important;
+  line-height: 2rem;
+}
+.hero__content--heading__title h1{
+  font-size: 5.5rem !important;
+}
+.hero__content--heading{
+  padding-right: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+/*Second Section*/
+/* Default link color */
+.categories__title a {
+  color: black;
+  font-size: 1.8rem !important;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.categories__link {
+  color: black !important;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+/* Color when link is active */
+.categories__title a.active {
+  color: #FA4A4A !important; /* Red color when active */
+}
+.categories__link.active{
+  color: #FA4A4A !important; /* Red color when active */
+}  
+
+/* Optional: Hover effect while active */
+.categories__title a.active:hover {
+  color: #FA4A4A !important; /* Same red color on hover when active */
+}
+.categories__link.active:hover{
+  color: #FA4A4A !important; /* Red color when active */
+}  
+.section__heading--title{
+  font-size: 4.2rem;
+  line-height: 5.2rem;
+}
+.section__heading--subtitle {
+  font-size: 1.8rem !important;
+  color: #FA4A4A !important; /* Same red color on hover when active */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section__heading--subtitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  padding-right: 10px;
+}
+.real{
+  padding-left:10px !important ;
 }

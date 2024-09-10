@@ -1,0 +1,11 @@
+.featured__card--title a{
+    color: black !important;
+    text-decoration: none;
+}
+.featured__thumbnail--link{
+    height:200px !important;
+}
+.featured__thumbnail--link img{
+    height: 100% !important;
+    width: 100% !important;
+}

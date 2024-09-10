@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import HomePage from './components/Pages/HomePage'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Correct import
 
-function App() {
+import Navbar from './components/Pages/Navbar'
+import About from './components/Pages/About';
+import Contact from './components/Pages/Contact';
+import Properites from './components/Pages/Properties';
+import Footer from './components/Pages/Footer';
+import TrendingProperties from './components/Pages/TrendingProperties';
+import Dealer from './components/Pages/Dealer';
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      {/* Navigation Bar */}
+      <Navbar />
 
-export default App;
+      {/* Sections */}
+      <section id="home">
+        <HomePage />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="properties">
+        <Properites />
+      </section>
+      <section id="trending">
+        <TrendingProperties />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+      <section id="dealer">
+        <Dealer />
+      </section>
+
+      {/* Footer */}
+      <Footer />
+    </div>
+
+  )
+}
