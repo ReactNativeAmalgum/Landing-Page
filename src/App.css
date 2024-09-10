@@ -84,4 +84,10 @@
   .contact__property--btn {
     width: 100%;
   }
+  .properties__author{
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+  }
 }
+
