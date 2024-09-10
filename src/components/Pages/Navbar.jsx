@@ -44,7 +44,8 @@ function BasicExample() {
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#trending">We Provide</Nav.Link>
                         <Nav.Link href="#properties">Lands</Nav.Link>
-                        <Nav.Link href="#Agents">Agents</Nav.Link>
+                        <Nav.Link href="#dealer">Agents</Nav.Link>
+                        <Nav.Link href="#testimonial">Testimonial</Nav.Link>
 
                         <Nav.Link href="#contact">Contact</Nav.Link>
 

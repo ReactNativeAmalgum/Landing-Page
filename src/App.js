@@ -10,6 +10,8 @@ import Properites from './components/Pages/Properties';
 import Footer from './components/Pages/Footer';
 import TrendingProperties from './components/Pages/TrendingProperties';
 import Dealer from './components/Pages/Dealer';
+import Banner from './components/Pages/Banner';
+import Testimonial from './components/Pages/Testimonial';
 export default function App() {
   return (
     <div>
@@ -18,8 +20,9 @@ export default function App() {
 
       {/* Sections */}
       <section id="home">
-        <HomePage />
+        <Banner />
       </section>
+      
       <section id="about">
         <About />
       </section>
@@ -34,6 +37,9 @@ export default function App() {
       </section>
       <section id="dealer">
         <Dealer />
+      </section>
+      <section id="testimonial">
+        <Testimonial />
       </section>
 
       {/* Footer */}

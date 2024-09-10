@@ -12,13 +12,13 @@ import Testimonial from './Testimonial'
 export default function HomePage() {
     return (
         <>
-            <Banner />
+            {/* <Banner />
             <Properites />
             <About />
             <TrendingProperties />
             <Contact />
             <Dealer />
-            <Testimonial />
+            <Testimonial /> */}
         </>
     )
 }
