@@ -26,9 +26,7 @@ export default function Footer() {
             <div className="footer-col-6">
               <h3 style={{ paddingTop: 5 }}>Abouts</h3>
               <p>
-                Welcome to Yoga Home, where we understand the challenges of
-                modern lifestyles and their impact on physical and emotional
-                well-being.
+              Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus elementum penatibus praesent penatibus per nam rhoncus.
               </p>
               <div className=" logo-cont">
               <h2>Logo</h2>
@@ -84,7 +82,7 @@ export default function Footer() {
                 <h3>Contact Us</h3>
               </div>
               <div className="social">
-                <CgMail className="icon" /> <p>rudra@gmail.com</p>
+                <CgMail className="icon" /> <p>Lorem@gmail.com</p>
               </div>
               <div className="social">
                 <FaPhone className="icon" /> <p>+91-9993711691</p>
@@ -100,7 +98,7 @@ export default function Footer() {
       </section>
       <section>
         <div className="copywright">
-          <p>2024 ©️ Yrogya Yoghome | All rights reserved | #SKDM</p>
+          <p>2024 ©️ Lorem | All rights reserved | #SKDM</p>
         </div>
       </section>
     </>
