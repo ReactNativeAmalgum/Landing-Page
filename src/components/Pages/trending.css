@@ -9,3 +9,7 @@
     height: 100% !important;
     width: 100% !important;
 }
+
+.featured__info--icon{
+    flex-direction: row;
+}

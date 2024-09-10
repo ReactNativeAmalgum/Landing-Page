@@ -152,7 +152,7 @@ export default function TrendingProperties() {
 
                                         <li className="featured__info--items">
                                             <span className="featured__info--icon">
-                                                3 Acer
+                                                3 acer
 
                                             </span>
                                         </li>
@@ -163,7 +163,7 @@ export default function TrendingProperties() {
                                         </a>
 
                                     </div>
-{ModalCont()}
+                                    {ModalCont()}
                                 </div>
                             </article>
                         </div>
@@ -200,10 +200,10 @@ export default function TrendingProperties() {
 
                                         <li className="featured__info--items">
                                             <span className="featured__info--icon">
-                                                5
+                                                5 acer
 
                                             </span>
-                                            <span className="featured__info--text">Acer</span>
+                                            {/* <span className="featured__info--text">acer</span> */}
                                         </li>
                                     </ul>
                                     <div onClick={showModal} className="hero__content--footer style2 d-flex align-items-center">
@@ -249,10 +249,10 @@ export default function TrendingProperties() {
 
                                         <li className="featured__info--items">
                                             <span className="featured__info--icon">
-                                                1
+                                                1 acer
 
                                             </span>
-                                            <span className="featured__info--text">Acer</span>
+                                            {/* <span className="featured__info--text">acer</span> */}
                                         </li>
                                     </ul>
                                     <div onClick={showModal} className="hero__content--footer style2 d-flex align-items-center">
@@ -297,10 +297,10 @@ export default function TrendingProperties() {
                                     <ul className="featured__info--list__style d-flex">
                                         <li className="featured__info--items">
                                             <span className="featured__info--icon">
-                                                2.5
+                                                2.5 acer
 
                                             </span>
-                                            <span className="featured__info--text">Acer</span>
+                                            {/* <span className="featured__info--text">acer</span> */}
                                         </li>
                                     </ul>
                                     <div onClick={showModal} className="hero__content--footer style2 d-flex align-items-center">
@@ -344,10 +344,10 @@ export default function TrendingProperties() {
                                     <ul className="featured__info--list__style d-flex">
                                         <li className="featured__info--items">
                                             <span className="featured__info--icon">
-                                                1.4
+                                                1.4 acer
 
                                             </span>
-                                            <span className="featured__info--text">Acer</span>
+                                            {/* <span className="featured__info--text">acer</span> */}
                                         </li>
                                     </ul>
                                     <div onClick={showModal} className="hero__content--footer style2 d-flex align-items-center">
@@ -396,7 +396,7 @@ export default function TrendingProperties() {
                                                 4.5 acer
 
                                             </span>
-                                            <span className="featured__info--text">Acer</span>
+                                            {/* <span className="featured__info--text">acer</span> */}
                                         </li>
                                     </ul>
                                     <div onClick={showModal} className="hero__content--footer style2 d-flex align-items-center">
@@ -445,7 +445,7 @@ export default function TrendingProperties() {
                                                 4.5 acer
 
                                             </span>
-                                            <span className="featured__info--text">Acer</span>
+                                            {/* <span className="featured__info--text">acer</span> */}
                                         </li>
                                     </ul>
                                     <div onClick={showModal} className="hero__content--footer style2 d-flex align-items-center">

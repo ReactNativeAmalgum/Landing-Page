@@ -70,3 +70,18 @@
 .real{
   padding-left:10px !important ;
 }
+
+@media (max-width:769px){
+  .contact__property--form{
+    width: 100%;
+  }
+}
+
+@media (max-width:375px){
+  .contact__property--form__inner{
+    align-items: center;
+  }
+  .contact__property--btn {
+    width: 100%;
+  }
+}

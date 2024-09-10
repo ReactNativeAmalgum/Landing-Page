@@ -1,5 +1,6 @@
 import React from 'react'
 import propertytumb from '../../assets/img/other/contact-property-thumb.png'
+import '../../App.css'
 export default function Contact() {
     return (
         <section className="contact__property--section section--padding">
