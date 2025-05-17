@@ -71,7 +71,7 @@ export default function Banner() {
                         </h3>
                         <h1 className="hero__content--heading__title">
                             Find The Best Land <br />
-                            On Your.
+                            On Your By Mukund.
                         </h1>
                         <p className="hero__content--heading__desc">
                             Lorem ipsum dolor sit amet, consectetur adipisicing
